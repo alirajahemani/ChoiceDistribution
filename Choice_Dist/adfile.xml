@@ -1,0 +1,46 @@
+﻿<Advertisements>
+  <Ad>
+    <ImageUrl>~/Images/products.png</ImageUrl>
+    <AlternateText>
+      Candy
+    </AlternateText>
+    <Impressions>80</Impressions>
+    <Keyword>candy</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/rdir005_iss-research-oh-yeah-bar-chocolate-caramel-12-x-85-1-583x450.jpg</ImageUrl>
+    <AlternateText>
+      Candy
+    </AlternateText>
+    <Impressions>80</Impressions>
+    <Keyword>candy</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/PTron-crosses-Rs-50-cr-in-sales.jpg</ImageUrl>
+    <AlternateText>
+      Candy
+    </AlternateText>
+    <Impressions>80</Impressions>
+    <Keyword>candy</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/12507576_918090931573530_5972378427074635917_n.jpg</ImageUrl>
+    <AlternateText>Soda Pop</AlternateText>
+    <Impressions>80</Impressions>
+    <Keyword>sodapop</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/Images/201803081504Snapple-Family-Shot.png</ImageUrl>
+    <AlternateText>Snapple</AlternateText>
+    <Impressions>80</Impressions>
+    <Keyword>snapple</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/Images/Frito-Lay-Ontario-Canada-plant-investment.jpg</ImageUrl>
+    <AlternateText>Frito lay</AlternateText>
+    <Impressions>80</Impressions>
+    <Keyword>fritolay</Keyword>
+  </Ad>
+</Advertisements>
