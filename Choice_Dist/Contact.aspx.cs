@@ -11,4 +11,13 @@ public partial class Contact : Page
     {
 
     }
+
+    protected void btnReset_Click(object sender, EventArgs e)
+    {
+        txtEmail.Text = string.Empty;
+        txtMessage.Text = string.Empty;
+        txtName.Text = string.Empty;
+        txtPhone.Text = string.Empty;
+        DropDownList1.SelectedIndex = 0;
+    }
 }

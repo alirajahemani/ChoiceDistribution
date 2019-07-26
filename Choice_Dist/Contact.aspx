@@ -72,9 +72,15 @@
             <td>
                 <asp:DropDownList ID="DropDownList1" runat="server">
                     <asp:ListItem>Select</asp:ListItem>
-                    <asp:ListItem>Candies</asp:ListItem>
+                    <asp:ListItem>Snapple</asp:ListItem>
                     <asp:ListItem>Pop</asp:ListItem>
-                    <asp:ListItem>Chocolates</asp:ListItem>
+                    <asp:ListItem>Calypso</asp:ListItem>
+                    <asp:ListItem>Hanks</asp:ListItem>
+                    <asp:ListItem>Oh Yeah!</asp:ListItem>
+                    <asp:ListItem>Ptron</asp:ListItem>
+                    <asp:ListItem>Cottage Country</asp:ListItem>
+                    <asp:ListItem>Fritolay</asp:ListItem>
+                    <asp:ListItem>Wonka</asp:ListItem>
                 </asp:DropDownList>
             </td>
         </tr>
@@ -83,8 +89,27 @@
                 Message:
             </td>
             <td>
-                <asp:TextBox ID="txtMessage" runat="server" ></asp:TextBox>
+                <asp:TextBox ID="txtMessage" TextMode="MultiLine" runat="server" ></asp:TextBox>
             </td>
         </tr>
-    </table>
+        <tr>
+            <td>
+                Email:
+            </td>
+            <td>
+                <asp:TextBox ID="txtEmail" Enabled="true" runat="server"></asp:TextBox>
+            </td>
+            <td>
+                <asp:RegularExpressionValidator ID="rfvTxtEmail" runat="server" ErrorMessage="*" ControlToValidate="txtEmail" Text="Email Error"></asp:RegularExpressionValidator>
+            </td>
+        </tr>
+        <tr> 
+            <td colspan="2">
+                <asp:Button  runat="server" ID="btnSubmit" Text="Submit" />
+            </td>
+            <td>
+                <asp:Button  runat="server" ID="btnReset" Text="Reset" OnClick="btnReset_Click" />
+            </td>
+        </tr>
+        </table>
 </asp:Content>
